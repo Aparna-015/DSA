@@ -12,16 +12,25 @@
 
 
 
-let array = [2, 6, 8, 10];
+
+
+
+
+
+
+let a = [2, 3,8,11];
 let target = 12;
-let n = array.length;
-let map = {};
-for (i = 0; i < n ; i++) {
-  map[array[i]] = i;
+let n = a.length;
+map = {};
+
+for (i = 0; i < n; i++) {
+  map[a[i]] = i;
 }
-for (i = 0; i < n ; i++) {
-  let pairfind = target - array[i];
-  if (map[pairfind]) {
+
+for (i = 0; i < n; i++) {
+  let pairfind = target - a[i];
+
+  if (map[pairfind] && map[pairfind] != i) {
     console.log([i, map[pairfind]]);
   }
 }
