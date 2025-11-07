@@ -15,6 +15,7 @@
 
 
 
+// ************************1) Brute force approach***************
 
 
 
@@ -40,7 +41,7 @@ for (i = 0; i < n; i++) {
 
 
 
-// ************************BBinary search for square root of a number***************
+// ************************2) Binary search for square root of a number***************
 
 
 
