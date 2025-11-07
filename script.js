@@ -18,7 +18,8 @@
 
 
 
-let a = [2, 3,8,11];
+
+let a = [2, 3,811];
 let target = 12;
 let n = a.length;
 map = {};
@@ -34,3 +35,42 @@ for (i = 0; i < n; i++) {
     console.log([i, map[pairfind]]);
   }
 }
+
+
+
+
+
+// ************************BBinary search for square root of a number***************
+
+
+
+function squrateroot(x){
+
+
+
+if(x<2)return x
+
+let l=2;
+let r=Math.floor(x/2);
+while(l<=r){
+
+let m=Math.floor((l+r)/2);
+
+if(x==m**2){
+  return m;
+}else if(x<m**2)
+
+{
+  r=m-1
+}else{
+
+  l=m+1;
+}
+
+
+
+
+}
+return r;
+  
+  } console.log(squrateroot(36));  
