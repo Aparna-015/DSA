@@ -20,7 +20,7 @@
 
 
 
-let a = [2, 3,811];
+let a = [2, 3,8];
 let target = 12;
 let n = a.length;
 map = {};
@@ -69,9 +69,12 @@ if(x==m**2){
 }
 
 
-
-
 }
 return r;
   
   } console.log(squrateroot(36));  
+
+
+
+
+  
